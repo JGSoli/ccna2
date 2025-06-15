@@ -133,12 +133,12 @@ Int Gi 1
  ip access-group NOISKUL in
 end
 YOUR COMPANY IS HAS VERY LOW INTERNET SPEED, BEC OF TORRENTS:
-www.thepiratebay.org   162.159.   104.21
-www.limetorrents.com    172.67.   84.32   104.21.
-www.freeanimeonline.com   76.223.  13.248
+www.thepiratebay.org   162.159.
+www.limetorrents.com    172.67.
+www.freeanimeonline.com   76.223.
 www.torlock2.com   104.21.
-www.hentaisites.com 104.21.   
-www.iptorrents.com  104.26.   95.211.
+www.hentaisites.com 104.21.
+www.iptorrents.com  104.26.
 
 config t
 NO ip access-list standard NOTORS
