@@ -1,0 +1,24 @@
+
+conf t
+  hostname COREtaas-_
+  enable secret pass
+  service password-encryption
+  no logging console
+  no ip domain-lookup
+
+  ip domain-name example.com
+  crypto key generate rsa
+    modulus 2048
+  ip ssh version 2
+
+  username admin privilege 15 secret adminpass
+
+  line vty 0 14
+    login local
+    transport input ssh
+    exec-timeout 0 0
+
+  line console 0
+    password pass
+    login
+    exec-timeout 0 0
